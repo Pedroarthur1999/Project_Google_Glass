@@ -1,0 +1,46 @@
+
+section#corpofull{   
+    width: 1200px;
+    margin-left: 25px;
+}
+
+section#corpofull h1{
+    font-family: 'fonte';
+    font-size: 24pt;
+    margin-bottom:-20px;
+}
+
+section#corpofull h3{
+    color:darkgray;    
+}
+
+section#corpofull h3.direita{
+    color: darkgray;
+    font-size: 8pt;
+    float: right;
+    margin-left: 250px;
+    margin-bottom: -70px;
+}
+
+section#conteudo {   
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#framespec {    
+    width: 500px;
+    height: 300px;
+    top: -500px;
+    border:none;
+    float: right;
+    overflow: hidden;
+}
+
+section#conteudo img{
+    margin-bottom: 80px;
+}
+
+iframe#framespec ::-webkit-scrollbar {
+ display: none;
+    
+}

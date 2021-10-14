@@ -1,0 +1,62 @@
+
+h1 {
+    font-family: 'fonte';
+    color: #000000;
+    font-size: 24pt;
+    
+}
+section#corpoo{
+    
+    width: 1200px;
+    margin-left: 25px;
+}
+
+section#corpoo h1{
+    
+    font-family: 'fonte';
+    font-size: 24pt;
+    margin-bottom:-20px;
+}
+section#corpoo h3{
+    color:darkgray;
+    
+}
+section#corpoo h3.dire{
+    color: darkgray;
+    left: 500px;
+    font-size: 8pt;
+    float: right;
+    margin-top: 16px;
+    
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+h3{
+    color:darkgray;
+}
+
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background:url("../_imagens/radio-tv.png");
+    margin-top: 80px;
+}
+audio#musica{
+    display: block;
+    position: relative;
+    left:574px;
+    top: 487px;
+    
+    
+}
+video#filme{
+    display: block;
+    position: relative;
+    left:83px;
+    top: 60px;  
+    width: 455px;
+}
+
