@@ -1,0 +1,101 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>
+    Google Glass
+</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/form.css">
+    <link rel="shortcut icon" href="_imagens/favicon.png" type="image/x-icon">
+    <script lang="javascript" src="_javascript/funcoes.js"> </script>
+</head>
+<body>
+    
+<div id="interface">
+  
+<header class="cabecalho">
+
+ <hgroup>
+<h1>Google Glass</h1>
+<h2>A revolução do Google está chegando</h2>
+ </hgroup>
+
+    <figure class="oculos">
+<img id="icone" src="_imagens/glass-oculos-preto-peq.png"><br /><br />
+
+    <figcaption></figcaption>
+</figure>
+<nav id="menu">
+        <h1><li> Menu Principal</li></h1>
+        <ul >
+
+        <li onmouseover="mudaFoto(2)" onmouseout="mudaFoto(6)"><a href="index.html"> Home</a></li>
+        <li> <a onmouseover="mudaFoto(3)" onmouseout="mudaFoto(6)" href="specs.html">Especificações </a>   </li> 
+        <li> <a onmouseover="mudaFoto(4)" onmouseout="mudaFoto(6)" href="fotos.html"> Fotos </a></li>
+        <li><a onmouseover="mudaFoto(5)" onmouseout="mudaFoto(6)" href="multimidia.html"> Multimídia</a></li>
+        <li> <a onmouseover="mudaFoto(6)" onmouseout="mudaFoto(6)" href="fale-conosco.html">Fale conosco</a></li>
+</ul>
+        </nav>
+   <hgroup>
+<h3>Fale Conosco > Contato</h3>
+<h1>Formulário de Contato</h1>
+<h3>por Pedro Arthur</h3>
+<h3 class="direita" >Atualizado em 23/Julho/2020</h3><br/>
+</hgroup>
+</header>
+<section>
+ <form> 
+     
+<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+    <p>Nome: <input type="text" name="tnome" id="cnome" size="20" maxlenght="30" placeholder="Nome Completo"></p>
+  <p>  Senha: <input type="password" name="tsenha" id="csenha" size="20" maxlenght="30" placeholder="8 digitos"></p>
+    <p>E-mail: <input type=email name="tmail" id="cmail" size="40" maxlenght="40"></p>
+  <fieldset id="sexo">
+      
+      <legend>Sexo:</legend> 
+      
+  <input type="radio"name="tmas" id="cmas"> <label for="cmas">Masculino </label><br/>
+  <input type="radio"name="tmas" id="cfen"><label for="cfen"> Feminino</label>
+      
+      </fieldset>
+    
+    <p>Data de Nascimento: <input type="date" name="tdata" id="cdata"></p>
+    
+</fieldset>
+     
+<fieldset id="endereco">      
+    
+<legend>Endereço do Usuário</legend>
+    
+<p>    Logradouro: <input type="text" name="trua" id="crua" size="40" maxlenght="50" placeholder="Rua, Avenida"></p>
+<p>    Número: <input type="number" name="tnum" id="cnum" min="0" max="99999"></p>
+<p>    Estado: <input type="text" name="test" id="cest" size="20" maxlenght="30"></p>
+<p>    Cidade: <input type="text" name="tcity" id="ccity" size="20" maxlenght="30"</p>
+</fieldset>
+      <fieldset id="mensagem">
+<legend>Mensagem do Usuário</legend>
+    <p>Grau de Urgência: <input type="text" name="g1" id="gu" min="0" max="999" placeholder="Urgencia?">   </p>
+   <p> Mensagem: <input type="text" min="0" max="9999"   ></p>
+</fieldset>
+      <fieldset id="pedido">
+<legend>Quero um Google Glass</legend>
+    <p>Gostaria de adquirir um Google Glass quando disponível</p>
+    <p>Cor: <input type="text" min="0" max="50"></p>
+    <p>Quantidade: <input type="number" max="50"></p>
+    <p>Preço Total: R$ <strong>2000</strong></p>
+
+</fieldset>
+
+        </section>
+    
+    <footer id="rodape">
+<p>&copy; 2020 - by Pedro Arthur<br>
+    <a href= "https://www.facebook.com/"target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/pedro_arthurdm/" target="_blank">| Instagram</a>
+   </p>
+    </footer>
+ </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <style>
+        iframe#frame-spec::-webkit-scrollbar {
+            display: none;
+            overflow-y: hidden;
+        }
+    </style>
+    <title>
+        Google Glass
+    </title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/specs.css">
+    <link rel="shortcut icon" href="_imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <script lang="javascript" src="_javascript/funcoes.js">
+    </script>
+    <div id="interface">
+
+        <header class="cabecalho">
+
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <figure class="oculos">
+                <img id="icone" src="_imagens/glass-oculos-preto-peq.png"><br /><br />
+
+            </figure>
+            <nav id="menu">
+                <h1>
+                    <li> Menu Principal</li>
+                </h1>
+                <ul>
+
+                    <li onmouseover="mudaFoto(2)" onmouseout="mudaFoto(3)"><a href="index.html"> Home</a></li>
+                    <li> <a onmouseover="mudaFoto(3)" onmouseout="mudaFoto(3)" href="specs.html">Especificações </a>
+                    </li>
+                    <li> <a onmouseover="mudaFoto(4)" onmouseout="mudaFoto(3)" href="fotos.html"> Fotos </a></li>
+                    <li><a onmouseover="mudaFoto(5)" onmouseout="mudaFoto(3)" href="multimidia.html"> Multimídia</a>
+                    </li>
+
+                    <li> <a onmouseover="mudaFoto(6)" onmouseout="
+    mudaFoto(1)" href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <section id="corpofull">
+            <article id="artigo-">
+                <header>
+                    <hgroup>
+                        <h3>Glass > Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h3>por Pedro Arthur</h3>
+                        <h3 class="direita">Atualizado em 23/Julho/2020</h3><br />
+                    </hgroup>
+                </header>
+            </article>
+
+            <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+                Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+            </p>
+            <section id="conteudo">
+                <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa">
+                <map name="meumapa">
+                    <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela">
+
+                    <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela">
+
+                    <area shape="poly" coords="26,144,83,216,84,252,24,172" href="google-glass.html#sensor"
+                        target="janela">
+                    <area shape="circle" coords="76,52,12" href="google-glass.html#bateria" target="janela">
+                </map>
+                <iframe scrolling="no" src="google-glass.html" name="janela" id="framespec"> </iframe>
+            </section>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright 2020 - by Pedro Arthur<br>
+                <a href="https://www.facebook.com/" target="_blank"> Facebook </a>
+                <a href="https://www.instagram.com/pedro_arthurdm/" target="_blank">| Instagram</a>
+            </p>
+        </footer>

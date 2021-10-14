@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/media.css" />
+    <link rel="shortcut icon" href="_imagens/favicon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <script lang="javascript" src="_javascript/funcoes.js"></script>
+
+    <div id="interface">
+      <header class="cabecalho">
+        <hgroup>
+          <h1>Google Glass</h1>
+          <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+
+        <figure class="oculos">
+          <img id="icone" src="_imagens/glass-oculos-preto-peq.png" />
+        </figure>
+        <nav id="menu">
+          <h1>
+            <li>Menu Principal</li>
+          </h1>
+          <ul>
+            <li onmouseover="mudaFoto(2)" onmouseout="mudaFoto(5)">
+              <a href="index.html"> Home</a>
+            </li>
+            <li>
+              <a
+                onmouseover="mudaFoto(3)"
+                onmouseout="mudaFoto(5)"
+                href="specs.html"
+                >Especificações
+              </a>
+            </li>
+            <li>
+              <a
+                onmouseover="mudaFoto(4)"
+                onmouseout="mudaFoto(5)"
+                href="fotos.html"
+              >
+                Fotos
+              </a>
+            </li>
+            <li>
+              <a
+                onmouseover="mudaFoto(5)"
+                onmouseout="mudaFoto(5)"
+                href="multimidia.html"
+              >
+                Multimídia</a
+              >
+            </li>
+
+            <li>
+              <a
+                onmouseover="mudaFoto(6)"
+                onmouseout="
+    mudaFoto(5)"
+                href="fale-conosco.html"
+                >Fale conosco</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="corpoo">
+        <hgroup id="h">
+          <h3>Glass > Multimídia</h3>
+          <h1>Sons e Vídeos</h1>
+          <h3>por Pedro Arthur</h3>
+          <h3 class="dire">Atualizado em 23/julho/2020</h3>
+        </hgroup>
+
+        <div id="tv-radio">
+          <audio id="musica" controls="controls">
+            <source
+              src="_media/_media/2009-lovers-carvings-bibio.mp3"
+              type="audio/mpeg"
+            />
+          </audio>
+
+          <video
+            id="filme"
+            controls="controls"
+            poster="_imagens/video-mini01.jpg"
+          >
+            <source src="_media/_media/getting-started.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <footer id="rodape">
+        <p>Copyright 2020 - by Pedro Arthur<br>
+            <a href="https://www.facebook.com/" target="_blank"> Facebook </a>
+            <a href="https://www.instagram.com/pedro_arthurdm/" target="_blank">| Instagram</a>
+        </p>
+    </footer>
+    </div>
+  </body>
+</html>
